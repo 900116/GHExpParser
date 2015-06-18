@@ -1,15 +1,15 @@
 # GHExpParser
 
 
-the code can paraser Exp and calculate result 
+the code can paraser Exp and calculate result ＜/br＞
 
-support baseOperater: + - * / % ^
-                     the '^' is cube
-support moreFuction: sin cos tan cot sec csc log ln sqrt
-                     the 'log' baseNumber is 2
-                     the 'ln' baseNumber is e
-support sepcConstant: pi e
-support brakets: () [] {}
+support baseOperater: + - * / % ^       ＜/br＞
+                     the '^' is cube    ＜/br＞
+support moreFuction: sin cos tan cot sec csc log ln sqrt  ＜/br＞
+                     the 'log' baseNumber is 2  ＜/br＞
+                     the 'ln' baseNumber is e   ＜/br＞
+support sepcConstant: pi e  ＜/br＞
+support brakets: () [] {}   ＜/br＞
 
 
 NSLog(@"%@",[GHExpParser parserExp:@"3+(4*5)-2^2"]); // ok
